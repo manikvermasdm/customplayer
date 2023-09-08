@@ -13,7 +13,7 @@ import MusicPlayer from './screens/MusicPlayer';
 
 function App(): JSX.Element {
   const [isPlayerReady, setIsPlayerReady] = useState(false);
-
+console.log('change')
   async function setup() {
     let isSetup = await setupPlayer();
     console.log(isSetup);
